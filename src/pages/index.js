@@ -1,15 +1,14 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import About from "./About";
+import about from "./about";
 
 // markup
 const IndexPage = () => {
   return (
     <main>
       <title>My Page</title>
-      <Link to="/src/pages/About.jsx">
-        <About />
-      </Link>
+      <Link to="/about">O nas</Link>
+      <Link to="/blog">Blog</Link>
     </main>
   );
 };
