@@ -7,7 +7,9 @@ const IndexPage = () => {
   return (
     <main>
       <title>My Page</title>
-      <Link to="/src/pages/About.jsx"></Link>
+      <Link to="/src/pages/About.jsx">
+        <About />
+      </Link>
     </main>
   );
 };
