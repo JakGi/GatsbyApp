@@ -1,14 +1,13 @@
 import * as React from "react";
-import { Link } from "gatsby";
-import about from "./about";
+import Header from "../components/header";
 
-// markup
+
 const IndexPage = () => {
   return (
     <main>
+      <Header />
       <title>My Page</title>
-      <Link to="/about">O nas</Link>
-      <Link to="/blog">Blog</Link>
+      <h1>My First Gatsby Page</h1>
     </main>
   );
 };
