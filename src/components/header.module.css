@@ -1,6 +1,11 @@
 .header-link {
     display: inline-block;
     padding: 20px 30px;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+.header-link:hover {
+    background-color: rgb(211, 181, 142);
 }
 
 .logo {
